@@ -6,7 +6,6 @@ from sklearn.model_selection import train_test_split
 def sigmoid(z):
     return 1 / (1 + np.exp(-z))
 
-
 class LogisticRegression:
 
     def __init__(self, iterations=100, learning_rate=0.01):
